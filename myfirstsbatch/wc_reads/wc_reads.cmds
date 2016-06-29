@@ -1,0 +1,13 @@
+	head -100000 human_01_R1.fastq | grep '^@HW' | wc -l > human_01_R1.fastq_rawreads.txt
+	head -100000 human_02_R1.fastq | grep '^@HW' | wc -l > human_02_R1.fastq_rawreads.txt
+        head -100000 yeast_01_R1.fastq | grep '^@HW' | wc -l > yeast_01_R1.fastq_rawreads.txt
+        head -100000 yeast_01_R2.fastq | grep '^@HW' | wc -l > yeast_01_R2.fastq_rawreads.txt
+        head -100000 yeast_02_R1.fastq | grep '^@HW' | wc -l > yeast_02_R1.fastq_rawreads.txt
+        head -100000 yeast_02_R2.fastq | grep '^@HW' | wc -l > yeast_02_R2.fastq_rawreads.txt
+        head -100000 SRR534005_01_R1.fastq | grep '^@SRR' | wc -l > SRR534005_01_R1.fastq_rawreads.txt
+        head -100000 SRR534005_01_R2.fastq | grep '^@SRR' | wc -l > SRR534005_01_R2.fastq_rawreads.txt
+        head -100000 SRR534005_02_R1.fastq | grep '^@SRR' | wc -l > SRR534005_02_R1.fastq_rawreads.txt
+        head -100000 SRR534005_02_R2.fastq | grep '^@SRR' | wc -l > SRR534005_02_R2.fastq_rawreads.txt
+        head -100000 SRR534005_03_R1.fastq | grep '^@SRR' | wc -l > SRR534005_03_R1.fastq_rawreads.txt
+        head -100000 SRR534005_03_R2.fastq | grep '^@SRR' | wc -l > SRR534005_03_R2.fastq_rawreads.txt
+        head -100000 chicken.fastq | grep '^@SRR' | wc -l > chicken.fastq_rawreads.txt
