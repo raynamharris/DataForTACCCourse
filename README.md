@@ -35,7 +35,7 @@ Here, I've add some organization with sub-directories.
 
 - The scripts are stored in bin/
 - The data are stored in data/
-- The results/ will be populated automatically using the lines of code at the .slurm file. I've used variables to name results sub-directories with the job name and job number so that all results are stored with unique identifies for good record keeping.
+- The results/ will be populated automatically using the lines of code at the .slurm file. I've used variables to name results sub-directories with the job name and job number so that all results are stored with unique identifies for good record keeping. You can see an example output from one time I ran this. 
 
 ## Feedback Welcome
 
