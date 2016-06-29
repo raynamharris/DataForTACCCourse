@@ -23,15 +23,23 @@ This is pretty much verbatum the example launcher script given by tacc. I've cha
 
 This subdirectory contains some tiny .fastq files and three scripts. 
 
-wc_reads.cmds is the list of commands to be executed on TACC that will count the number of reads in each file.
-wc_reads.slurm is the batch script that will execute the commands on stampede
-.wc_reads.sh is a shell script that I hid from easy access because I think the for loop I used is a little above the scope and I don't want to intruce it write off the bat, but will save that till later in the course.
+- wc_reads.cmds is the list of commands to be executed on TACC that will count the number of reads in each file.
+- wc_reads.slurm is the batch script that will execute the commands on stampede
+- .wc_reads.sh is a shell script that I hid from easy access because I think the for loop I used is a little above the scope and I don't want to intruce it write off the bat, but will save that till later in the course.
 
 ### wc_reads_better
 
 Basically, really early on I want to introduce students to some data managment tools. 
 
-Here, I've add some ogranization with bin, data, and results directories. The scripts are stored in bin, the data are in data, and the results folder will be populated automatically using the lines of code at the .slurm file
+Here, I've add some organization with sub-directories. 
+
+- The scripts are stored in bin/
+- The data are stored in data/
+- The results/ will be populated automatically using the lines of code at the .slurm file. I've used variables to name results sub-directories with the job name and job number so that all results are stored with unique identifies for good record keeping.
+
+## Feedback Welcome
+
+I'm always looking for better ways of doing things, especially when it comes to data management, so feel free to make suggestions for imporvement. 
 
 
  
