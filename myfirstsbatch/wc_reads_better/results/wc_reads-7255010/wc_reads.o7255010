@@ -1,0 +1,22 @@
+ WORKING DIR:   ./
+TACC: Starting up job 7255010
+TACC: starting parallel tasks...
+Warning: Permanently added 'c549-301,129.114.89.91' (RSA) to the list of known hosts.
+--------------------------------------------------
+TACC Launcher -> 8 processors allocated.
+TACC Launcher -> 8 total tasks to complete.
+--------------------------------------------------
+ 
+TACC Launcher -> Iniating task 1 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/GM_25_S_S31_L003_R1_001_small.fastq | grep '^@K00179' | wc -l > GM_25_S_S31_L003_R1_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 4 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/GM_26_S_S32_L003_R2_001_small.fastq | grep '^@K00179' | wc -l > GM_26_S_S32_L003_R2_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 8 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/PD_11_S_S28_L003_R2_001_small.fastq | grep '^@K00179' | wc -l > PD_11_S_S28_L003_R2_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 2 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/GM_25_S_S31_L003_R2_001_small.fastq | grep '^@K00179' | wc -l > GM_25_S_S31_L003_R2_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 5 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/PD_10_S_S27_L003_R1_001_small.fastq | grep '^@K00179' | wc -l > PD_10_S_S27_L003_R1_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 3 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/GM_26_S_S32_L003_R1_001_small.fastq | grep '^@K00179' | wc -l > GM_26_S_S32_L003_R1_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 7 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/PD_11_S_S28_L003_R1_001_small.fastq | grep '^@K00179' | wc -l > PD_11_S_S28_L003_R1_001_small.fastq_wc_reads.txt)
+TACC Launcher -> Iniating task 6 on c549-301.stampede.tacc.utexas.edu (        head -100000 ../data/PD_10_S_S27_L003_R2_001_small.fastq | grep '^@K00179' | wc -l > PD_10_S_S27_L003_R2_001_small.fastq_wc_reads.txt)
+TACC: Shutting down parallel environment.
+TACC: Shutdown complete. Exiting.
+ 
+ wc_reads Job Complete
+ 

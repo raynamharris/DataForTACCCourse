@@ -16,7 +16,7 @@
 #SBATCH -J wc_reads                # Job name
 #SBATCH -o wc_reads.o%j             # Name of stdout output file (%j expands to jobid)
 #SBATCH -N 1                         # Total number of nodes (16 cores/node)
-#SBATCH -n 13                        # Total number of tasks
+#SBATCH -n 8                        # Total number of tasks
 #SBATCH -p normal                    # Queue name
 #SBATCH -t 00:05:00                  # Run time (hh:mm:ss)
 #SBATCH --mail-user=rayna.harris@utexas.edu   # email me
