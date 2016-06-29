@@ -6,9 +6,9 @@ These files are stored in $WORK on TACC in order to lanch the jobs on stampede.
 
 For easy viewing, I've also stored them here.  
 
-## myfirstbath
+## my first batch script
 
-This is the name of the directory I created to house what I think are nice beginner workflows for someone's first batch script
+"myfirstbatch" is the name of the directory I created to house what I think are nice beginner workflows for someone's first batch script
 
 Inside this directory are three sub-directories
 
